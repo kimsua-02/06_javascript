@@ -1,7 +1,7 @@
 // 논리 연산자
 // || , $$ !
 
-// OR, AND 연산자 표현식의 결과가 때로는 불리언이 아닐 수 있다.
+// OR, AND 연산자 표현식의 결과가 때로는 boolean 이 아닐 수 있다.
 console.log('apple' || 'banana');
 console.log(false || 'banana');
 
