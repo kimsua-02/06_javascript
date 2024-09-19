@@ -22,7 +22,7 @@
         const $drink = document.getElementById("drink");
 
         $drink.addEventListener("click",e=>{
-            if(e.target.matches("li")){  // li 랑 들어오는 값이랑 매치해서 같으면 일치시킴.
+            if(e.target.matches("li")){  // li 랑 들어오는 값이랑 매치해서 같으면 일치시킴.(일치하면 값을 클릭했을 때 글자가 빨간색으로 변함.)
                 e.target.style.color = "red";
             }
         });
